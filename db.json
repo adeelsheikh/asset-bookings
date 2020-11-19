@@ -1,0 +1,222 @@
+{
+	"jobs": [{
+			"id": 1,
+			"userid" : "1",
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "1",
+			"startDate": "2020-11-16",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "1",
+			"location": {
+				"locationid": "1",
+				"locationname": "Building A"
+			},
+			"status": "pending",
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+		
+			"contractor": {
+				"id": 1,
+				"name": "Alec Plant Department"
+			},
+
+			"jobhistory": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"userid" : "2",
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "2",
+			"startDate": "2020-10-28",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
+			},
+
+			"status": "booked",
+			"milestone": {
+				"id": 2,
+				"name": "Level B"
+			},
+			"contractor": {
+				"id": 2,
+				"name": "ALEMCO"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"userid" : "1",
+			"projectid": "1",
+			"requestid": "1",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "1",
+			"startDate": "2020-11-22",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"status": "completed",
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
+			},
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+			"contractor": {
+				"id": 3,
+				"name": "ALEC Plant Department Team"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		}
+
+	],
+
+	"contractors": [{
+			"id": 1,
+			"name": "Alec",
+			"projectid": 1
+		},
+		{
+			"id": 2,
+			"name": "Access Middle East LLC",
+			"postId": 1
+		}
+	],
+	"assets": [{
+			"id": "1",
+			"name": "TC",
+			"projectId": "1",
+			"type": "TowerCranes"
+		},
+		{
+			"id": "1",
+			"name": "MC-1",
+			"projectId": "1",
+			"type": "MobileCranes"
+		},
+		{
+			"id": "1",
+			"name": "Bays-01",
+			"projectId": "1",
+			"type": "Bays"
+		}
+	],
+	"tasks": [{
+			"id": 1,
+			"name": "Task 1",
+			"parentTaskId": "3",
+			"projectId": "1",
+			"taskType": "lifting"
+		},
+		{
+			"id": 1,
+			"name": "Task 2",
+			"parentTaskId": "2",
+			"projectId": "1",
+			"taskType": "loading"
+		}
+	],
+	"milestones": [{
+			"id": 1,
+			"name": "Level A"
+		},
+		{
+			"id": "2",
+			"name": "Level B"
+		}
+	]
+}
