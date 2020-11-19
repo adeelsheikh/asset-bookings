@@ -16,6 +16,8 @@
 			"endTime": "10:00",
 			"duration": "2hr",
 			"gateid": "2",
+			 "createdDate" : "2020-11-19",
+			 "updatedDate" : "2020-11-19",
 			"locationid": "1",
 			"location": {
 				"locationid": "1",
@@ -71,6 +73,8 @@
 			"endTime": "10:00",
 			"duration": "2hr",
 			"gateid": "2",
+			 "createdDate" : "2020-11-17",
+			 "updatedDate" : "2020-11-18",
 			"locationid": "2",
 
 			"location": {
@@ -128,6 +132,8 @@
 			"gateid": "2",
 			"locationid": "2",
 			"status": "completed",
+			 "createdDate" : "2020-11-12",
+			 "updatedDate" : "2020-11-12",
 			"location": {
 				"locationid": "2",
 				"locationname": "Building B"
@@ -182,6 +188,8 @@
 			"gateid": "2",
 			"locationid": "2",
 			"status": "completed",
+			 "createdDate" : "2020-11-11",
+			 "updatedDate" : "2020-11-11",
 			"location": {
 				"locationid": "2",
 				"locationname": "Building B"
@@ -237,6 +245,8 @@
 			"gateid": "2",
 			"locationid": "2",
 			"status": "completed",
+			 "createdDate" : "2020-11-13",
+			 "updatedDate" : "2020-11-13",
 			"location": {
 				"locationid": "2",
 				"locationname": "Building B"
@@ -291,6 +301,8 @@
 			"gateid": "2",
 			"locationid": "2",
 			"status": "completed",
+			 "createdDate" : "2020-11-09",
+			 "updatedDate" : "2020-11-09",
 			"location": {
 				"id": 3,
 				"name": "ALEC Plant Department Team"
