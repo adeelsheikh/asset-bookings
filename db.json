@@ -161,6 +161,169 @@
 					"assetType": "TC"
 				}
 			]
+		},
+		
+		{
+			"id": 4,
+			"userid" : "1",
+			"projectid": "10",
+			"requestid": "10",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "1",
+			"startDate": "2020-11-22",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"status": "completed",
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
+			},
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+			"contractor": {
+				"id": 2,
+				"name": "ALEMCO"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		},
+		
+		
+		{
+			"id": 5,
+			"userid" : "20",
+			"projectid": "20",
+			"requestid": "20",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "1",
+			"startDate": "2020-11-22",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"status": "completed",
+			"location": {
+				"locationid": "2",
+				"locationname": "Building B"
+			},
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+			"contractor": {
+				"id": 2,
+				"name": "ALEMCO"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
+		},
+		
+		{
+			"id": 6,
+			"userid" : "20",
+			"projectid": "40",
+			"requestid": "40",
+			"operatorid": "12",
+			"assetid": "2",
+			"assettype": "TC",
+			"contractorid": "2",
+			"taskid": "2",
+			"milestoneid": "1",
+			"startDate": "2020-11-22",
+			"endDate": "",
+			"startTime": "08:00",
+			"endTime": "10:00",
+			"duration": "2hr",
+			"gateid": "2",
+			"locationid": "2",
+			"status": "completed",
+			"location": {
+				"id": 3,
+				"name": "ALEC Plant Department Team"
+			},
+			"milestone": {
+				"id": 1,
+				"name": "Level A"
+			},
+			"contractor": {
+				"id": 2,
+				"name": "ALEMCO"
+			},
+			"jobhistoy": [{
+				"id": 1,
+				"jobId": "1",
+				"actionById": "2",
+				"actionByName": "test",
+				"action": "test",
+				"description": ""
+			}],
+			"jobtimelog": [{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				},
+				{
+					"id": 1,
+					"jobId": "1",
+					"userid": "2",
+					"assetType": "TC"
+				}
+			]
 		}
 
 	],
